@@ -1,0 +1,7 @@
+route_id,mine_id,plant_id,corridor_id,lead_days,rakes_per_day,freight_t,real_transport_cost_t
+R1,M1,P1,C1,2,3,600,350
+R2,M1,P2,C1,3,2,850,500
+R3,M1,P3,C2,5,2,1100,650
+R4,M2,P1,C2,4,2,950,550
+R5,M2,P2,C1,2,3,650,380
+R6,M2,P3,C2,3,2,750,440

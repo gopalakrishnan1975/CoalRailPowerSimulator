@@ -1,0 +1,1 @@
+"""Optional stateless service adapters."""

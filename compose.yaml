@@ -1,0 +1,17 @@
+services:
+  catalog:
+    build: .
+    environment: {SERVICE_ROLE: catalog}
+    ports: ["127.0.0.1:8001:8000"]
+  forecast:
+    build: .
+    environment: {SERVICE_ROLE: forecast}
+    ports: ["127.0.0.1:8002:8000"]
+  simulation:
+    build: .
+    environment: {SERVICE_ROLE: simulation}
+    ports: ["127.0.0.1:8003:8000"]
+  game:
+    build: .
+    environment: {SERVICE_ROLE: game}
+    ports: ["127.0.0.1:8004:8000"]

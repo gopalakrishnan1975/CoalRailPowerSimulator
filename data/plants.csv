@@ -1,0 +1,4 @@
+plant_id,capacity_mw,initial_stock_t,capacity_t,mwh_per_t,nonfuel_cost_mwh,storage_cost_t_day
+P1,1000,65000,180000,2.0,450,1.5
+P2,800,50000,150000,1.8,550,1.8
+P3,600,45000,140000,2.2,400,1.4

@@ -1,0 +1,3 @@
+mine_id,production_tpd,initial_stock_t,capacity_t,coal_price_t,mining_cost_t,storage_cost_t_day
+M1,15000,90000,300000,1800,1100,0.6
+M2,12000,70000,250000,2100,1300,0.8
