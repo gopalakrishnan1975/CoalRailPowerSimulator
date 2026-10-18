@@ -25,3 +25,7 @@ python -m unittest discover -s tests -v
 Optional HTTP adapters use `requirements-services.txt`; `docker compose up --build` starts four localhost-bound research services. The Streamlit app runs without them.
 
 Copyright 2026 R. Gopalakrishnan. All rights reserved; no open-source license is granted by making this source visible.
+
+## Solar, Demand & BESS Policy Lab
+
+The solar consumption and storage simulator is in [`solar_bess/`](solar_bess/README.md). For a separate Streamlit deployment use branch `main`, entrypoint `solar_bess/app.py`, Python 3.11 or 3.12, and the dependency file beside that entrypoint. It compares integrated daytime energy targets with hourly guarantees, optimises battery MW/MWh, models demand shifting and screens storage-as-a-service costs.
